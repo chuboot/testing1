@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config configs/webpack.dev.config.js --mode=development",
     "watch": "webpack --config configs/webpack.dev.config.js --mode=development --watch",
-    "build": "webpack --config configs/webpack.prod.config.js --mode=production"
+    "build-app": "webpack --config configs/webpack.prod.config.js --mode=production"
   },
   "keywords": [],
   "author": "",
